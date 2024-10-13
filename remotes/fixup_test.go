@@ -353,13 +353,13 @@ func TestFixupBundleCheckResolveOrder(t *testing.T) {
 			// Resolvable
 			{
 				MediaType: ocischemav1.MediaTypeImageManifest,
-				Size:      65,
+				Size:      80,
 				Digest:    "sha256:beef1aa7866258751a261bae525a1842c7ff0662d4f34a355d5f36826abc0343",
 			},
 			// This one is from the copy task
 			{
 				MediaType: ocischemav1.MediaTypeImageManifest,
-				Size:      65,
+				Size:      80,
 				Digest:    "sha256:beef1aa7866258751a261bae525a1842c7ff0662d4f34a355d5f36826abc0343",
 			},
 
@@ -371,13 +371,13 @@ func TestFixupBundleCheckResolveOrder(t *testing.T) {
 			// resolved by second pass, from the bundle
 			{
 				MediaType: ocischemav1.MediaTypeImageManifest,
-				Size:      65,
+				Size:      80,
 				Digest:    "sha256:beef1aa7866258751a261bae525a1842c7ff0662d4f34a355d5f36826abc0343",
 			},
 			// copy task
 			{
 				MediaType: ocischemav1.MediaTypeImageManifest,
-				Size:      65,
+				Size:      80,
 				Digest:    "sha256:beef1aa7866258751a261bae525a1842c7ff0662d4f34a355d5f36826abc0343",
 			},
 
@@ -393,7 +393,7 @@ func TestFixupBundleCheckResolveOrder(t *testing.T) {
 			// image is pushed, resolve is called at the end
 			{
 				MediaType: ocischemav1.MediaTypeImageManifest,
-				Size:      65,
+				Size:      80,
 				Digest:    "sha256:beef1aa7866258751a261bae525a1842c7ff0662d4f34a355d5f36826abc0343",
 			},
 
@@ -401,13 +401,13 @@ func TestFixupBundleCheckResolveOrder(t *testing.T) {
 			// not in relocation map but resolvable
 			{
 				MediaType: ocischemav1.MediaTypeImageManifest,
-				Size:      65,
+				Size:      80,
 				Digest:    "sha256:beef1aa7866258751a261bae525a1842c7ff0662d4f34a355d5f36826abc0343",
 			},
 			// copy task
 			{
 				MediaType: ocischemav1.MediaTypeImageManifest,
-				Size:      65,
+				Size:      80,
 				Digest:    "sha256:beef1aa7866258751a261bae525a1842c7ff0662d4f34a355d5f36826abc0343",
 			},
 
@@ -419,7 +419,7 @@ func TestFixupBundleCheckResolveOrder(t *testing.T) {
 			// image is pushed, resolve is called at the end
 			{
 				MediaType: ocischemav1.MediaTypeImageManifest,
-				Size:      65,
+				Size:      80,
 				Digest:    "sha256:beef1aa7866258751a261bae525a1842c7ff0662d4f34a355d5f36826abc0343",
 			},
 		},
