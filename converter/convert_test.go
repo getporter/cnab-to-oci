@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	"github.com/cnabio/cnab-to-oci/tests"
+	"github.com/distribution/reference"
 	"github.com/docker/distribution/manifest/schema2"
-	"github.com/docker/distribution/reference"
 	ocischemav1 "github.com/opencontainers/image-spec/specs-go/v1"
 	"gotest.tools/v3/assert"
 )

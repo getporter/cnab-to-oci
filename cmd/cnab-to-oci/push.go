@@ -9,7 +9,7 @@ import (
 
 	"github.com/cnabio/cnab-go/bundle"
 	"github.com/cnabio/cnab-to-oci/remotes"
-	"github.com/docker/distribution/reference"
+	"github.com/distribution/reference"
 	"github.com/docker/docker/client"
 	"github.com/spf13/cobra"
 )

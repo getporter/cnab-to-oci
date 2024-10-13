@@ -8,8 +8,9 @@ require (
 	github.com/cnabio/cnab-go v0.25.1
 	github.com/containerd/containerd v1.7.22
 	github.com/cyberphone/json-canonicalization v0.0.0-20220623050100-57a0ce2678a7
+	github.com/distribution/reference v0.6.0
 	github.com/docker/cli v27.3.1+incompatible
-	github.com/docker/distribution v2.8.1+incompatible
+	github.com/docker/distribution v2.8.3+incompatible
 	github.com/docker/docker v27.3.1+incompatible
 	github.com/hashicorp/go-multierror v1.1.1
 	github.com/opencontainers/go-digest v1.0.0
@@ -31,7 +32,6 @@ require (
 	github.com/containerd/errdefs v0.1.0 // indirect
 	github.com/containerd/log v0.1.0 // indirect
 	github.com/containerd/platforms v0.2.1 // indirect
-	github.com/distribution/reference v0.6.0 // indirect
 	github.com/docker/docker-credential-helpers v0.7.0 // indirect
 	github.com/docker/go-connections v0.4.0 // indirect
 	github.com/docker/go-metrics v0.0.1 // indirect
