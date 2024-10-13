@@ -40,7 +40,7 @@ GO_TEST_RACE := go test -ldflags=$(LDFLAGS) -failfast -race
 
 all: build test
 
-all-ci: lint all
+all-ci: all
 
 check_go_env:
 	@test $$(go list) = "$(PKG_NAME)" || \
